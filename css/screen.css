@@ -1,0 +1,32 @@
+body {
+	background: #222;
+	margin: 0;
+}
+
+.cell {
+	height: 50px;
+	width: 50px;
+	float: left;
+	
+	transition: background .5s;
+	-webkit-transition: background .5s;
+	-moz-transition: background .5s;
+
+}
+
+.break {
+	float: none;
+	clear: both;
+}
+
+.active, .cell:hover {
+	transition: background .1s;
+	-webkit-transition: background .1s;
+	
+}
+
+.active.color1 {background: #ADCD37;}
+.active.color2 {background: #4B3026;}
+.active.color3 {background: #FA5735;}
+.active.color4 {background: #EAD92C;}
+.active.color5 {background: #37AC72;}
